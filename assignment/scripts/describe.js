@@ -136,12 +136,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should equal 'blue'
 let colorOne = 'red';
+// FIX - colorTwo should equal 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - colorTwo should also be set equal to 'purple'
 }
 */
 
@@ -153,20 +156,25 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - should be && instead of ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than minAge
+// We check if age is greater than or equal to minAge
 // -- they are, so we console.log 'enter'.
 
 /*
 let age = 21;
 const minAge = 21;
 
+// FIX - should be age <= min age for the console to return 'enter'.
 if(minAge <= age) {
+  // ALT FIX - we could also switch the two console.log statements and leave the condition above as inspect
+  //           this would make the program flow closer to how it is described though both would only print
+  //           'enter' to the console if "age" is greater than or equal to "minAge"
   console.log('no entry');
 } else {
   console.log('enter');

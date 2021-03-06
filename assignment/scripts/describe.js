@@ -48,8 +48,8 @@ if (name === 'Mary') {
 // We declared a variable called "secret" but left the value as undefined.
 // We declared another variable called "code" and set it equal to 123 as a number.
 // We checked to see if code is equal to 123, and because it is, we assigned the value 'super' as
-// a string to the variable "secret" and multiplied 2 to the value of code making it equal the Number
-// 246. Next we check if code is greater than 250, it is not, so we do nothing.
+// a string to the variable "secret" and multiplied 2 to the value of code making it equal the number
+// 246. Next we check if code is greater than 250; it is not, so we do nothing.
 // Finally we console.log the value of secret and it prints 'super' in the console.
 
 //CODE
@@ -172,8 +172,8 @@ const minAge = 21;
 
 // FIX - should be age <= min age for the console to return 'enter'.
 if(minAge <= age) {
-  // ALT FIX - we could also switch the two console.log statements and leave the condition above as inspect
-  //           this would make the program flow closer to how it is described though both would only print
+  // ALT FIX - we could also switch the two console.log statements and leave the condition above as is.
+  //           This would make the program flow closer to how it is described though both would only print
   //           'enter' to the console if "age" is greater than or equal to "minAge"
   console.log('no entry');
 } else {
